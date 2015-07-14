@@ -1,0 +1,47 @@
+{
+  "name": "sand-static",
+  "version": "1.0.0",
+  "description": "Statif File Handler for Sand",
+  "main": "lib/Static.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocketly/sand-static.git"
+  },
+  "keywords": [
+    "Static",
+    "Files",
+    "Caching",
+    "CSS",
+    "JS",
+    "Versioning"
+  ],
+  "author": "Kevin Smithson <ksmithson@sazze.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pocketly/sand-static/issues"
+  },
+  "homepage": "https://github.com/pocketly/sand-static#readme",
+  "dependencies": {
+    "async": "^1.3.0",
+    "clean-css": "^3.3.5",
+    "co": "^4.6.0",
+    "lodash": "^3.10.0",
+    "q": "^1.4.1",
+    "sand-grain": "^1.0.0",
+    "uglify-js": "^2.4.23",
+    "walker": "^1.0.7",
+    "yuicompressor": "^2.4.8"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "mockery": "^1.4.0",
+    "redis-mock": "^0.4.9",
+    "sand": "^1.0.1",
+    "sand-http": "^2.0.1",
+    "sand-redis": "^1.0.3",
+    "should": "^7.0.2"
+  }
+}
