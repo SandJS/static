@@ -1,6 +1,6 @@
 {
   "name": "sand-static",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Statif File Handler for Sand",
   "main": "lib/Static.js",
   "scripts": {
